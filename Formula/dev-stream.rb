@@ -16,7 +16,7 @@ class DevStream < Formula
     ENV.prepend_path "PATH", buildpath/"bin"
     (buildpath/"src/github.com/merico-dev/stream").install buildpath.children
     cd "src/github.com/merico-dev/stream" do
-      system "make", "build"
+      system "make", "build-core"
       mv "dtm-#{goos}-#{goarch}", "dtm"
       bin.install "dtm"
     end
