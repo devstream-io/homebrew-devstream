@@ -2,9 +2,7 @@
 
 ## How do I install these formulae?
 
-`brew install devstream-io/devstream/<formula>`
-
-Or `brew tap devstream-io/devstream` and then `brew install <formula>`.
+`brew install devstream-io/devstream/dtm`
 
 ## Documentation
 
