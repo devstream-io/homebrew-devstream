@@ -23,6 +23,6 @@ class DevStream < Formula
   end
 
   test do
-    system "false"
+    assert_match version.to_s, shell_output("#{bin}/dtm version")
   end
 end
