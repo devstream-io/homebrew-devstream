@@ -12,6 +12,7 @@ class DevStream < Formula
     goarch = Utils.safe_popen_read("#{Formula["go"].bin}/go", "env", "GOARCH").chomp
     ENV["GOPATH"] = buildpath
     ENV["GO111MODULE"] = "auto"
+    system "mkdir", "-p", buildpath/"bin"
     ENV.prepend_path "PATH", buildpath/"bin"
     (buildpath/"src/github.com/merico-dev/stream").install buildpath.children
     cd "src/github.com/merico-dev/stream" do
