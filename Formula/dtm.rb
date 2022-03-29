@@ -5,6 +5,13 @@ class Dtm < Formula
   sha256 "3223ff4ea46626d6849831ad9abfa6f67699731fd927fe477ab945b3ab9424eb"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://github.com/devstream-io/homebrew-devstream/releases/download/dtm-0.3.0"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, big_sur:      "4ac4d32be3ef71a14d12613c82f36e15dc9977ed7f2799e5413be2338ea9d40b"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "23345a92a02901ba8c8c1b5298125c0d8e705d407a6f37cb578be478c4fa9824"
+  end
+
   depends_on "go" => :build
 
   def install
