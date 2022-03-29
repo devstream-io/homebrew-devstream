@@ -1,8 +1,9 @@
 # Devstream-io Devstream
 
-## How do I install these formulae?
+## How do I install `dtm`?
 
-`brew install devstream-io/devstream/dtm`
+1. `brew tap devstream-io/devstream`
+2. `brew install dev-stream`
 
 ## Documentation
 
