@@ -7,9 +7,9 @@ class Dtm < Formula
 
   bottle do
     root_url "https://github.com/devstream-io/homebrew-devstream/releases/download/dtm-0.3.0"
-    sha256 cellar: :any_skip_relocation, big_sur:      "e03e1695739fa35cf4b27a3baa02486ca92374ca773a29380239b6f1c460929a"
     sha256 cellar: :any_skip_relocation, arm64_monterey: "fa62912af71d857e7629ea94988ad528ce3ddf9203cb01527651c0d1bcb6b7c4"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "644b43d0cfcdd56c70bfe911147a47492526da0bf09c5d3507ae676fe16aace3"
+    sha256 cellar: :any_skip_relocation, big_sur:        "e03e1695739fa35cf4b27a3baa02486ca92374ca773a29380239b6f1c460929a"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:   "644b43d0cfcdd56c70bfe911147a47492526da0bf09c5d3507ae676fe16aace3"
   end
 
   depends_on "go" => :build
