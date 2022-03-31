@@ -1,8 +1,8 @@
 class Dtm < Formula
   desc "Open-source DevOps toolchain manager (DTM)"
   homepage "https://github.com/merico-dev/stream"
-  url "https://github.com/merico-dev/stream/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "3223ff4ea46626d6849831ad9abfa6f67699731fd927fe477ab945b3ab9424eb"
+  url "https://github.com/merico-dev/stream/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "81504d978c790963cbd78d2c44eb8079286d2e2881dfb6ef7498205a6734609d"
   license "Apache-2.0"
 
   bottle do
