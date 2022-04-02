@@ -6,10 +6,9 @@ class Dtm < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/devstream-io/homebrew-devstream/releases/download/dtm-0.3.1"
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "ea871b6a5c32ea248d080853f9564b903817d42362f33f1bfa66c64e60d64865"
-    sha256 cellar: :any_skip_relocation, big_sur:        "82b7c8080e4739ac455ddcdf2e0e3cbf4a5cb85117cd2f5def4b77cc0fb33924"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:   "0877c924920ece9a1bdba498ec4257933c1749defbb15aeeb698c17b75f4beab"
+    root_url "https://github.com/devstream-io/homebrew-devstream/releases/download/dtm-0.3.2"
+    sha256 cellar: :any_skip_relocation, big_sur:      "6f8dd051d400678783cd16db58dbe8d4da2fc608fe13965c206fa0a4a3a637e6"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "43010819b624f95e52920e48dfd4dfa68d129d291ee3b190486460d2dba30315"
   end
 
   depends_on "go" => :build
