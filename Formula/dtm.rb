@@ -2,7 +2,7 @@ class Dtm < Formula
   desc "Open-source DevOps toolchain manager (DTM)"
   homepage "https://github.com/devstream-io/devstream"
   url "https://github.com/devstream-io/devstream/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "92c338a18c599e7ec9b5ba37c25904773dccb0c64df868a353271ffb3a624e10"
+  sha256 "f55407dd511734ce59278f867e854bf2b390217c05f3b0261f711a2fb375572d"
   license "Apache-2.0"
 
   bottle do
