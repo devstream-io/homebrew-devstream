@@ -24,7 +24,7 @@ class Dtm < Formula
     (buildpath/"src/github.com/devstream-io/devstream").install buildpath.children
     cd "src/github.com/devstream-io/devstream" do
       system "make", "build-core"
-      mv "dtm-#{goos}-#{goarch}", "dtm"
+      cp "dtm-#{goos}-#{goarch}", "dtm"
       bin.install "dtm"
     end
   end
